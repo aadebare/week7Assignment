@@ -9,6 +9,8 @@ index = numbers.indexOf(76)
 divisible =numbers.filter(num=>num%2===0)
 join = numbers.join('')
 order2 = numbers.slice().reverse()
+age = numbers.length
+greater = numbers.filter(num => num > 50)
 
 
 
@@ -22,4 +24,6 @@ console.log(index)
 console.log(divisible)
 console.log(join)
 console.log(order2)
+console.log(age)
+console.log(greater)
 

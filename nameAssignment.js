@@ -1,9 +1,7 @@
-const students = ["alice","bob","chalie","darlington","emma","fiona","george","hannah","joy","julia"];
-
-students.forEach((item, index, arr) =>{console.log(arr);});
+const students = ["alice","bob","chalie","darlington","emma","fiona","george","hannah","joy","julia"]
 
 
-
+students.sort((a,b)=>b.length-a.length)
 
 
 
@@ -12,3 +10,6 @@ students.forEach((item, index, arr) =>{console.log(arr);});
 
 
 
+
+
+console.log(students)
